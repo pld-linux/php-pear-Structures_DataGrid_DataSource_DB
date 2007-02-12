@@ -4,7 +4,7 @@
 %define		_status		beta
 %define		_pearname	Structures_DataGrid_DataSource_DB
 Summary:	%{_pearname} - DataSource driver using PEAR::DB result objects
-Summary(pl):	%{_pearname} - sterownik DataSource dla obiektów PEAR::DB
+Summary(pl.UTF-8):   %{_pearname} - sterownik DataSource dla obiektÃ³w PEAR::DB
 Name:		php-pear-%{_pearname}
 Version:	0.1.1
 Release:	1
@@ -32,12 +32,12 @@ MDB2 DataSource drivers instead.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Ten pakiet dostarcza sterownik DataSource do obiektów wyników PEAR::DB
+%description -l pl.UTF-8
+Ten pakiet dostarcza sterownik DataSource do obiektÃ³w wynikÃ³w PEAR::DB
 dla Structures_DataGrid.
 
-Prosze wzi±æ pod uwagê, i¿ ten sterownik jest uznany jako niepolecany.
-Zamiast niego lepiej u¿yæ sterowników DataSource DBQuery lub MDB2.
+Prosze wziÄ…Ä‡ pod uwagÄ™, iÅ¼ ten sterownik jest uznany jako niepolecany.
+Zamiast niego lepiej uÅ¼yÄ‡ sterownikÃ³w DataSource DBQuery lub MDB2.
 
 Ta klasa ma w PEAR status: %{_status}.
 
