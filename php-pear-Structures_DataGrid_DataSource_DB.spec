@@ -4,7 +4,7 @@
 %define		_status		beta
 %define		_pearname	Structures_DataGrid_DataSource_DB
 Summary:	%{_pearname} - DataSource driver using PEAR::DB result objects
-Summary(pl.UTF-8):   %{_pearname} - sterownik DataSource dla obiektów PEAR::DB
+Summary(pl.UTF-8):	%{_pearname} - sterownik DataSource dla obiektów PEAR::DB
 Name:		php-pear-%{_pearname}
 Version:	0.1.1
 Release:	1
