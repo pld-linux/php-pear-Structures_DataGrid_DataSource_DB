@@ -7,7 +7,7 @@ Summary:	%{_pearname} - DataSource driver using PEAR::DB result objects
 Summary(pl.UTF-8):	%{_pearname} - sterownik DataSource dla obiektów PEAR::DB
 Name:		php-pear-%{_pearname}
 Version:	0.1.1
-Release:	1
+Release:	2
 License:	PHP License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
