@@ -1,19 +1,17 @@
 %include	/usr/lib/rpm/macros.php
-%define		_class		Structures
-%define		_subclass	DataGrid_DataSource_DB
 %define		_status		beta
 %define		_pearname	Structures_DataGrid_DataSource_DB
 Summary:	%{_pearname} - DataSource driver using PEAR::DB result objects
 Summary(pl.UTF-8):	%{_pearname} - sterownik DataSource dla obiektów PEAR::DB
 Name:		php-pear-%{_pearname}
 Version:	0.1.1
-Release:	2
+Release:	3
 License:	PHP License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	c0d2c0b1dd4a027adffd98aa82747890
 URL:		http://pear.php.net/package/Structures_DataGrid_DataSource_DB/
-BuildRequires:	php-pear-PEAR
+BuildRequires:	php-pear-PEAR >= 1:1.4.9
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-pear
 Requires:	php-pear-DB >= 1.7.6
